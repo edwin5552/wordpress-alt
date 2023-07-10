@@ -1,0 +1,4 @@
+Page Link
+=========
+
+<?php echo get_permalink(1)?>
