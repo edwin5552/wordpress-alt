@@ -1,0 +1,17 @@
+HTML
+====
+<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="" height="" alt="" />
+
+
+CSS
+===
+.brand {
+  background: url('<?php echo get_template_directory_uri(); ?>/img/brand.jpg') center center;
+}
+
+
+JQUERY
+======
+$(document).ready(function () {
+  $("#home-section").backstretch("<?php echo get_template_directory_uri(); ?>/img/background-image2.jpg");
+});
