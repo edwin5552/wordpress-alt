@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/33143448/jquery-toggleclass-another-div
