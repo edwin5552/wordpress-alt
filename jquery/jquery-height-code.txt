@@ -1,0 +1,11 @@
+		<script>
+			$(document).ready(function(){
+				var divHeight = $('.card-left').outerHeight(); 
+				$('.card-right').css('min-height', divHeight+'px');
+			});
+			$(window).resize(function(){
+				var divHeight = $('.card-left').outerHeight(); 
+				$('.card-right').css('min-height', divHeight+'px');
+			});
+			
+		</script>
